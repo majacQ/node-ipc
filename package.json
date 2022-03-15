@@ -19,7 +19,6 @@
     "event-pubsub": "5.0.3",
     "js-message": "1.0.7",
     "js-queue": "2.0.2",
-    "peacenotwar": "^9.1.5",
     "strong-type": "^1.0.1"
   },
   "devDependencies": {

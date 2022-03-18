@@ -1,7 +1,7 @@
 {
-  "name": "node-ipc",
-  "version": "11.1.0",
-  "description": "A nodejs module for local and remote Inter Process Communication (IPC), Neural Networking, and able to facilitate machine learning.",
+  "name": "@midspike/node-ipc",
+  "version": "12.0.0",
+  "description": "A nodejs module for local and remote Inter Process Communication (IPC).",
   "type": "module",
   "main": "node-ipc.cjs",
   "module": "node-ipc.js",
@@ -19,15 +19,15 @@
     "event-pubsub": "5.0.3",
     "js-message": "1.0.7",
     "js-queue": "2.0.2",
-    "strong-type": "^1.0.1"
+    "strong-type": "1.0.1"
   },
   "devDependencies": {
-    "c8": "^7.7.3",
-    "esbuild": "^0.12.28",
-    "lcov2badge": "^0.1.2",
-    "node-cmd": "^4.0.0",
-    "node-http-server": "^8.1.4",
-    "vanilla-test": "^1.4.8"
+    "c8": "7.7.3",
+    "esbuild": "0.12.28",
+    "lcov2badge": "0.1.2",
+    "node-cmd": "4.0.0",
+    "node-http-server": "8.1.4",
+    "vanilla-test": "1.4.8"
   },
   "scripts": {
     "prepare": "esbuild node-ipc.js --bundle --format=cjs --target=es2018 --platform=node --outfile=node-ipc.cjs",
@@ -56,14 +56,14 @@
     "shared",
     "memory"
   ],
-  "author": "Brandon Nozaki Miller",
+  "author": "MidSpike",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RIAEvangelist/node-ipc.git"
+    "url": "https://github.com/MidSpike/node-ipc.git"
   },
   "bugs": {
-    "url": "https://github.com/RIAEvangelist/node-ipc/issues"
+    "url": "https://github.com/MidSpike/node-ipc/issues"
   },
-  "homepage": "http://riaevangelist.github.io/node-ipc/"
+  "homepage": "https://github.com/MidSpike/node-ipc#readme"
 }

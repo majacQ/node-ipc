@@ -1,5 +1,6 @@
 /nbproject/private/
 /node_modules/
 /nbproject
+/.vscode
 npm-debug.log
 node-ipc.cjs
